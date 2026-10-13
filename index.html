@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MTVZN — Photographie Nightlife & Événementiel (@mtvzn_)</title>
+  <meta name="description" content="Portfolio d'Amaury (MTVZN). Photographie de soirées, clubs, concerts et événements à Bruxelles. Flash direct, énergie brute, zéro mise en scène.">
+
+  <!-- Google Fonts: Space Grotesk & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Grain overlay subtil -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#top" class="brand">
+        <span class="brand-name">MTVZN</span>
+        <span class="brand-sub">/ matteo</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#photos" class="nav-link">Sélection</a></li>
+        <li><a href="#tarifs" class="nav-link">Tarifs</a></li>
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="https://www.instagram.com/mtvzn_/" target="_blank" rel="noopener noreferrer" class="nav-link">@mtvzn_ ↗</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/3248591780" target="_blank" rel="noopener noreferrer" class="btn contact-pill whatsapp">
+          WhatsApp ↗
+        </a>
+        <button class="mobile-toggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero / Intro -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-header">
+          <div>
+            <h1 class="hero-title">
+              NIGHTLIFE &<br>EVENT PHOTO.
+            </h1>
+            <p class="hero-bio">
+              Matteo (MTVZN). Étudiant à l'ICHEC et photographe événementiel à Bruxelles. Je capture la nuit et la fête sous toutes ses facettes : clubs (Mirano, The House...), scènes live, galas étudiants, défilés de mode et soirées latino. Flash direct, énergie brute et zéro pose forcée.
+            </p>
+          </div>
+
+          <div class="hero-contact-quick">
+            <a href="https://wa.me/3248591780" target="_blank" rel="noopener noreferrer" class="contact-pill whatsapp">
+              ● +32 485 91 78 0 (WhatsApp)
+            </a>
+            <a href="https://www.instagram.com/mtvzn_/" target="_blank" rel="noopener noreferrer" class="contact-pill">
+              Instagram @mtvzn_ ↗
+            </a>
+            <span style="color: var(--text-dim); font-size: 0.75rem;">Bruxelles & toute la Belgique • Dispo pour dates</span>
+          </div>
+        </div>
+
+        <!-- Filter bar -->
+        <div id="photos" class="filter-bar">
+          <div class="filter-tags">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="clubs">Clubs & The House</button>
+            <button class="filter-btn" data-filter="live">Scène & Concerts</button>
+            <button class="filter-btn" data-filter="galas">Bals & Galas</button>
+            <button class="filter-btn" data-filter="portraits">Portraits Flash</button>
+            <button class="filter-btn" data-filter="instagram">Feed Insta (@mtvzn_)</button>
+          </div>
+          <span id="photoCount" class="photo-count-tag">Sélection en cours</span>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div id="galleryGrid" class="gallery-grid">
+          <!-- Injected by JavaScript with high-res crisp imagery -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Tarifs & Formules Accessibles -->
+    <section id="tarifs" class="section-tarifs">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-label">Prix & Prestations</span>
+          <h2 class="section-title">TARIFS ACCESSIBLES</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.4rem; max-width: 600px;">
+            Des tarifs pensés pour les collectifs de soirées, les clubs, les BDE étudiants et les organisateurs indépendants.
+          </p>
+        </div>
+
+        <div class="tarifs-grid">
+          <!-- Formule 1: Set / Format Court -->
+          <div class="tarif-card">
+            <span class="tarif-badge">Format Court / Set</span>
+            <h3 class="tarif-name">Soirée & Set DJ</h3>
+            <p class="tarif-desc">Idéal pour un passage DJ, un pic de soirée ou une ambiance ciblée de 2 à 3 heures.</p>
+            <div class="tarif-price">
+              90€ <span>/ soirée (~2h-3h)</span>
+            </div>
+            <ul class="tarif-list">
+              <li>2h à 3h de présence sur place</li>
+              <li>Scène DJ, dancefloor, foule & portraits au flash</li>
+              <li>80 à 120 photos retouchées en haute qualité</li>
+              <li>Sélection rapide (10-15 photos) livrée dès le lendemain pour tes stories</li>
+              <li>Galerie privée en ligne accessible par lien</li>
+            </ul>
+            <a href="https://wa.me/3248591780?text=Salut%20Matteo,%20je%20suis%20chaud%20pour%20la%20formule%20Soir%C3%A9e%20%C3%A0%2090%E2%82%AC" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="justify-content: center;">
+              Booker via WhatsApp
+            </a>
+          </div>
+
+          <!-- Formule 2: Nuit Complète -->
+          <div class="tarif-card" style="border-color: rgba(255, 255, 255, 0.25);">
+            <span class="tarif-badge" style="color: var(--accent);">Recommandé • Format The House</span>
+            <h3 class="tarif-name">Nuit Complète</h3>
+            <p class="tarif-desc">Du warm-up jusqu'au closing. Toute l'histoire de la soirée capturée du début à la fin.</p>
+            <div class="tarif-price">
+              160€ <span>/ nuit complète (4h à 6h)</span>
+            </div>
+            <ul class="tarif-list">
+              <li>4h à 6h de couverture continue</li>
+              <li>Warm-up, montée de salle, explosion des drops, VIP & closing</li>
+              <li>180 à 260 photos retouchées en pleine résolution</li>
+              <li>Pack Social Media express livré sous 24h</li>
+              <li>Rushes libres de droits pour communication & flyers futurs</li>
+            </ul>
+            <a href="https://wa.me/3248591780?text=Salut%20Matteo,%20je%20te%20contacte%20pour%20bloquer%20une%20Nuit%20Compl%C3%A8te%20%C3%A0%20160%E2%82%AC" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="justify-content: center;">
+              Bloquer une date
+            </a>
+          </div>
+
+          <!-- Formule 3: Horaire / Petit Budget -->
+          <div class="tarif-card">
+            <span class="tarif-badge">Sur-Mesure / Flexible</span>
+            <h3 class="tarif-name">Tarif Horaire</h3>
+            <p class="tarif-desc">Pour un afterwork, un événement étudiant, un anniversaire ou un format spécifique.</p>
+            <div class="tarif-price">
+              35€ <span>/ heure</span>
+            </div>
+            <ul class="tarif-list">
+              <li>Minimum 1h30</li>
+              <li>Idéal pour les budgets serrés ou les petits collectifs</li>
+              <li>Retouche complète Lightroom incluse</li>
+              <li>Livraison rapide via lien de téléchargement HD</li>
+              <li>Déplacement inclus sur Bruxelles (Belgique entière si défraiement)</li>
+            </ul>
+            <a href="https://wa.me/3248591780?text=Salut%20Matteo,%20j'ai%20un%20projet%20sur-mesure%20pour%20un%20shooting%20photo" target="_blank" rel="noopener noreferrer" class="btn" style="justify-content: center;">
+              Discuter du projet
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- À Propos / Vision Authentique -->
+    <section id="about" class="section-about">
+      <div class="container">
+        <div class="about-grid">
+          <div>
+            <span class="section-label">À Propos</span>
+            <h2 class="section-title" style="margin-bottom: 1.5rem;">LA VIBE MTVZN</h2>
+            <div class="about-text">
+              <p>
+                Moi c'est <strong>Matteo</strong> (derrière l'objectif de <strong>MTVZN</strong>). Étudiant à l'<strong>ICHEC</strong> à Bruxelles, je me suis lancé dans la photo événementielle avec une idée simple : capturer l'énergie brute et spontanée de chaque moment, à l'opposé des clichés lisses et des sourires posés.
+              </p>
+              <p>
+                Je suis ouvert à tous les univers et j'ai déjà bossé sur un large panel d'ambiances : <strong>clubs & collectifs</strong> (The House, Mirano...), <strong>bals & soirées étudiantes</strong>, <strong>showcases live</strong>, mais aussi des <strong>événements latino</strong> et des <strong>défilés de mode</strong>. Quel que soit le style de musique ou le type d'événement, je m'adapte à la foule pour capturer l'intensité du moment.
+              </p>
+              <p>
+                Sur le terrain, je shoote au <strong>flash cobra direct</strong>, au cœur de la foule ou dans le DJ booth. Chaque série est ensuite triée et retouchée avec soin sous <strong>Lightroom Classic</strong> pour faire claquer les contrastes, sublimer la lumière et faire revivre l'ambiance dès le lendemain.
+              </p>
+            </div>
+          </div>
+
+          <div class="gear-box">
+            <div class="gear-title">// Setup & Profil</div>
+            <ul class="gear-list">
+              <li><span>Boîtier</span> <strong>Sony Alpha 7 II (Plein Format)</strong></li>
+              <li><span>Optiques</span> <strong>Grand angle & Focales lumineuses</strong></li>
+              <li><span>Flash</span> <strong>Flash Cobra direct & déporté</strong></li>
+              <li><span>Édition</span> <strong>Adobe Lightroom Classic</strong></li>
+              <li><span>Profil</span> <strong>Étudiant ICHEC Brussels</strong></li>
+              <li><span>Mobilité</span> <strong>Bruxelles & Belgique (si défraiement)</strong></li>
+              <li><span>Livraison</span> <strong>Rushes express sous 24h - 48h</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Direct -->
+    <section id="contact" class="section-contact">
+      <div class="container">
+        <div class="contact-layout">
+          <div>
+            <span class="section-label">Contact</span>
+            <h2 class="section-title" style="margin-bottom: 1.2rem;">BOOKER UNE DATE</h2>
+            <p style="color: var(--text-muted); font-size: 1rem; margin-bottom: 2.5rem; line-height: 1.6;">
+              Tu prépares une soirée, un club night, un bal ou un événement ? Le plus rapide est de m'envoyer directement un message sur WhatsApp ou un DM sur Instagram avec la date et le lieu.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-row">
+                <span class="contact-label">WhatsApp direct</span>
+                <a href="https://wa.me/3248591780" target="_blank" rel="noopener noreferrer" class="contact-value" style="color: #25d366;">
+                  +32 485 91 78 0 ↗
+                </a>
+              </div>
+
+              <div class="contact-row">
+                <span class="contact-label">Instagram</span>
+                <a href="https://www.instagram.com/mtvzn_/" target="_blank" rel="noopener noreferrer" class="contact-value">
+                  @mtvzn_ ↗
+                </a>
+              </div>
+
+              <div class="contact-row">
+                <span class="contact-label">Email</span>
+                <a href="mailto:mtvzn.photo@gmail.com" class="contact-value">
+                  mtvzn.photo@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulaire Simple -->
+          <form id="contactForm" class="simple-form">
+            <div class="form-field">
+              <label for="formName">Ton Nom / Collectif / Événement</label>
+              <input type="text" id="formName" class="form-input" placeholder="ex: The House / Julien" required>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-field">
+                <label for="formPhone">Numéro / WhatsApp</label>
+                <input type="text" id="formPhone" class="form-input" placeholder="+32 ..." required>
+              </div>
+              <div class="form-field">
+                <label for="formDate">Date de l'événement</label>
+                <input type="date" id="formDate" class="form-input" required>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="formFormula">Formule souhaitée</label>
+              <select id="formFormula" class="form-input">
+                <option value="90">Soirée & Set DJ (~2h-3h) — 90€</option>
+                <option value="160">Nuit Complète (4h-6h) — 160€</option>
+                <option value="35">Tarif Horaire — 35€/h</option>
+                <option value="autre">Autre format sur-mesure</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="formMsg">Détails (Lieu, horaires, ambiance)</label>
+              <textarea id="formMsg" class="form-input" placeholder="Raconte brièvement le projet..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="justify-content: center; padding: 0.85rem;">
+              Envoyer par WhatsApp ou Email
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div id="lightboxModal" class="lightbox-modal" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Fermer">✕</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Précédent">‹</button>
+    <button class="lightbox-nav lightbox-next" aria-label="Suivant">›</button>
+
+    <div class="lightbox-box">
+      <img id="lightboxImg" class="lightbox-img" src="" alt="Photo agrandie">
+      <div class="lightbox-meta-bar">
+        <span id="lightboxTitle">Titre</span>
+        <span id="lightboxIndex">01 / 33</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>MTVZN</strong> — Matteo. Photographie événementielle à Bruxelles.
+      </div>
+      <div>
+        WhatsApp : <a href="https://wa.me/3248591780" style="color: #fff; text-decoration: none;">+32 485 91 78 0</a> • Instagram : <a href="https://www.instagram.com/mtvzn_/" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: none;">@mtvzn_</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
